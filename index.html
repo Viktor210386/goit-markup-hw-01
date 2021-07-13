@@ -2,43 +2,130 @@
 <html lang="en">
 
 <head>
-    <title>Вкладка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,800&display=swap" rel="stylesheet">
     <style>
-        body {
-            background-color: aqua;
+        .header-label {
+            font-size: 7px;
         }
 
-        div {
-            color: burlywood;
+        .menu-item {
+            margin-left: 20px;
+            cursor: pointer;
         }
 
-        .some-class {
-            color: blue;
+        .email {
+            margin-left: 150px;
         }
 
-        .some-class2 {
-            font-size: xx-large;
+        .menu-item:hover {
+            color: lightskyblue;
         }
 
-        #id1 {
-            color: green;
+        .menu-item-first {
+            margin-left: 30px;
         }
 
-        #id1:hover {
-            color: red;
+        .bold {
+            font-weight: bold;
+        }
+
+        .topic {
+            margin-left: 10px;
+            margin-top: 10px;
+            width: 100px;
+            word-wrap: break-word;
         }
     </style>
 </head>
 
 <body>
-    <div class="some-class some-class2">Раньше тут ничего не было</div>
-    <br />
-    <span style="color: red;">Раньше тут ничего не было</span>
-    <br />
-    <div>Раньше тут ничего не было</div>
-    <div id="id1">THIS IS SELECTOR BY ID</div>
-    <br />
-    <img width="150" height="100" src="images/img1.png" />
+    <span style="font-family: Raleway; font-size: 13px; margin-left: 77px; color: lightskyblue;">Web</span>
+    <span style="font-family: Raleway; font-size: 13px; margin-left: -4px;">Studio</span>
+    <span class="header-label menu-item menu-item-first">Студия</span>
+    <span class="header-label menu-item">Портфолио</span>
+    <span class="header-label menu-item">Контакты</span>
+    <span class="header-label menu-item email">info@dev.com</span>
+    <span class="header-label menu-item-first">+38 096 111 11 11</span>
+    <div style="background-color: black; height: 200px; margin: 10px 0px 0px -10px;">
+        <span style="color: white;">ЭФФЕКТИВНЫЕ РЕШЕНИЯ</span>
+        <br />
+        <span style="color: white;">ДЛЯ ВАШЕГО БИЗНЕСА</span>
+        <br />
+        <input style="background-color: lightskyblue; border: 0px; font-family: Roboto;" type="button"
+            value="Заказать услугу">
+    </div>
+    <div style="display:flex;">
+        <div class="header-label bold topic">
+            ВНИМАНИЕ К ДЕТАЛЯМ
+        </div>
+        <div class="header-label bold topic">
+            ПУНКТУАЛЬНОСТЬ
+        </div>
+        <div class="header-label bold topic">
+            ПЛАНИРОВАНИЕ
+        </div>
+        <div class="header-label bold topic">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</div>
+
+    </div>
+    <div style="display:flex;">
+        <div class="header-label topic">
+            fkalfgjaklerghlskeahgseargaergsergasdefg
+        </div>
+        <div class="header-label topic">
+            aefrgaefrgaemkrgnkerghkafehjgaefgaergergaergaerg
+        </div>
+        <span class="header-label topic">
+            aerga,e.fgnaklefhgklasehgkjaherghakjergaerg
+        </span>
+        <div class="header-label topic">qefaergsdfgbsgfbstgbsbszdfvzdfvszfbszdfgbvszdfbszfbzsdgfbszdgfb
+        </div>
+
+    </div>
+    <div style="margin-top: 20px;">
+        Чем мы занимаемся
+    </div>
+    <img src="images/img1.png" width="80px" height="80px" />
+    <img src="images/img 2.png" width="80px" height="80px" />
+    <img src="images/img 3.png" width="80px" height="80px" />
+    <div style="background-color: #F5F4FA; height: 200px; margin: 10px 0px 0px -10px;">
+        <div>НАША КОМАНДА</div>
+        <div style="display:flex;">
+            <div style="background-color: white; height: 120px; width: 70px;">
+                <img src="images/p1.png" width="70px" height="80px" />
+                <div class="bold" style="height: 20px;font-size: 7px;">Игорь Демьяненко</div>
+                <div style="height: 20px; font-size: 7px;">Product Manager</div>
+            </div>
+            <div style="background-color: white; height: 120px; width: 70px;">
+                <img src="images/p2.png" width="70px" height="80px" />
+                <div class="bold" style="height: 20px;font-size: 7px;">Ольга Репина</div>
+                <div style="height: 20px; font-size: 7px;">Frontend Developer</div>
+            </div>
+            <div style="background-color: white; height: 120px; width: 70px;">
+                <img src="images/p3.png" width="70px" height="80px" />
+                <div class="bold" style="height: 20px;font-size: 7px;">Николай Тарасов</div>
+                <div style="height: 20px; font-size: 7px;">Marketing</div>
+            </div>
+            <div style="background-color: white; height: 120px; width: 70px;">
+                <img src="images/p4.png" width="70px" height="80px" />
+                <div class="bold" style="height: 20px;font-size: 7px;">Михаил Ермаков</div>
+                <div style="height: 20px; font-size: 7px;">UI Designer</div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #2F303A; height: 80px; margin: 10px 0px 0px -10px; padding-left: 10px;">
+        <span
+            style="font-family: Raleway; font-size: 13px; text-decoration: underline; margin-left: 30px; color: lightskyblue;">Web</span>
+        <span
+            style="font-family: Raleway; font-size: 13px; text-decoration: underline; margin-left: -4px;">Studio</span>
+        <div style="color: white" class="header-label" ;>г.Киев, пр-т Леси Украинки, 26
+            <div>info@example.com</div>
+            <div>+38 096 111 11 11</div>
+        </div>
+
+
 </body>
 
 </html>
